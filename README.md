@@ -91,4 +91,3 @@ HTML reports are written under `reports/`.
 ## Production extension with Pact Broker or PactFlow
 
 For multiple repositories, publish consumer contracts to a Pact Broker and let provider pipelines fetch and verify them. Add `can-i-deploy` before deployment to prevent releasing incompatible consumer/provider versions. Keep broker credentials in GitHub Actions secrets rather than source control.
->>>>>>> 9d30cd9 (inital framework for contract testing)

@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/contract_framework/__init__.py
+src/contract_framework/consumer/__init__.py
+src/contract_framework/consumer/client.py
+src/contract_framework/provider/__init__.py
+src/contract_framework/provider/app.py
+src/contract_framework/provider/repository.py
+src/python_contract_testing_framework.egg-info/PKG-INFO
+src/python_contract_testing_framework.egg-info/SOURCES.txt
+src/python_contract_testing_framework.egg-info/dependency_links.txt
+src/python_contract_testing_framework.egg-info/requires.txt
+src/python_contract_testing_framework.egg-info/top_level.txt

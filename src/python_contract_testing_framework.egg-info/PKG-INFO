@@ -1,6 +1,23 @@
-<<<<<<< HEAD
-# contract-testing-framework
-=======
+Metadata-Version: 2.4
+Name: python-contract-testing-framework
+Version: 1.0.0
+Summary: Consumer-driven API contract testing framework using Pact, pytest, and FastAPI
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: email-validator<3.0,>=2.2
+Requires-Dist: fastapi<1.0,>=0.115
+Requires-Dist: pact-python<4.0,>=3.4
+Requires-Dist: pydantic<3.0,>=2.10
+Requires-Dist: requests<3.0,>=2.32
+Requires-Dist: uvicorn<1.0,>=0.49
+Provides-Extra: dev
+Requires-Dist: pytest<10.0,>=9.1; extra == "dev"
+Requires-Dist: pytest-cov<8.0,>=7.1; extra == "dev"
+Requires-Dist: pytest-html<5.0,>=4.2; extra == "dev"
+Requires-Dist: ruff<1.0,>=0.11; extra == "dev"
+Dynamic: license-file
+
 # Python Contract Testing Framework
 
 A GitHub-ready consumer-driven contract testing framework built with **Pact V4**, **pytest**, and **FastAPI**.
@@ -94,4 +111,3 @@ HTML reports are written under `reports/`.
 ## Production extension with Pact Broker or PactFlow
 
 For multiple repositories, publish consumer contracts to a Pact Broker and let provider pipelines fetch and verify them. Add `can-i-deploy` before deployment to prevent releasing incompatible consumer/provider versions. Keep broker credentials in GitHub Actions secrets rather than source control.
->>>>>>> 9d30cd9 (inital framework for contract testing)

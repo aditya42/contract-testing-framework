@@ -1,5 +1,3 @@
-# contract-testing-framework
-=======
 # Python Contract Testing Framework
 
 A GitHub-ready consumer-driven contract testing framework built with **Pact V4**, **pytest**, and **FastAPI**.

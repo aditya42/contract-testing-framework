@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # contract-testing-framework
 =======
 # Python Contract Testing Framework
